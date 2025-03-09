@@ -1,3 +1,4 @@
+console.log("3.1")
 let num = 0;
 let str = 'Petro';
 let bool = true;
@@ -23,10 +24,10 @@ console.log("myUndefined", typeof myUndefined);
 console.log("mySymbol", typeof Symbol);
 console.log("myObject", typeof myObject);
 console.log("myArray", typeof myArray);
-console.log('Happy developing ✨')
 
 let arr =[];
 for (let i = 0; i < 10; i++) {
     arr.push(i);
 }
 console.log("arr", arr);
+
