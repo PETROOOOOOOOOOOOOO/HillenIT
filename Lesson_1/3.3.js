@@ -1,3 +1,4 @@
-console.log("3.3")
-let str = "321321213"
-console.log(str.split("").join(" "));
+console.log("3.3");
+let string = "321321213";
+console.log(string);
+console.log(string.split("").join(" "));
