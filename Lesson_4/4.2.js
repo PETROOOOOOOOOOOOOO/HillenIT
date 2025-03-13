@@ -1,7 +1,7 @@
 let tripleNum = prompt('Введіть трьохзначне число')
-let first = Math.floor(tripleNum / 100); // Перша цифра
-let second = Math.floor(tripleNum / 10) % 10; // Друга цифра
-let third = tripleNum % 10; // Третя цифра
+let first = Math.floor(tripleNum / 100);
+let second = Math.floor(tripleNum / 10) % 10;
+let third = tripleNum % 10;
 
 let allSame = (first === second) && (second === third);
 let hasDuplicate = (first === second || second === third || first === third);
