@@ -16,7 +16,8 @@ const library = {
         this.book.push(newContact);
     }
 }
-const found = library.findContactName("S");
+const getName = prompt(name)
+const found = library.findContactName(getName);
 console.log(found);
 library.addContact({
     name: "P",
