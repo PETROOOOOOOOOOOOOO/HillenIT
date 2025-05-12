@@ -1,0 +1,9 @@
+#timer {
+    font-size: 5rem;
+    font-family: monospace;
+    text-align: center;
+    justify-self: center;
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
