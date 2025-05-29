@@ -1,5 +1,8 @@
+import './style.css';
+
 const apiKey = "a5ce3836a0dd866f5eb67609ef6cb042";
 const city = "Kyiv";
+
 
 async function getWeather() {
     try {
@@ -15,4 +18,8 @@ async function getWeather() {
     }
 }
 
-window.onload = getWeather;
+window.getWeather = getWeather;
+window.onload = () => {
+    document.getElementById("refreshBtn").addEventListener("click", getWeather);
+    getWeather();
+}
